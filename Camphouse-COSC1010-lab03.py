@@ -31,8 +31,9 @@ print(f"{list[1].upper()} is south of {list[0].upper()}")
 
 print("Part Two------------------------------------------------------------------------")
 #Append the following states to your list: Washington, Oregon, California and print your list
-other = ["Washington", "Oregon", "California"]
-list = list + other
+list.append("Washington")
+list.append("Oregon")
+list.append("California")
 print(list)
 
 #Again using the specific syntax mentioned in class overwrite the second to last element to be Maine, printing the list 
