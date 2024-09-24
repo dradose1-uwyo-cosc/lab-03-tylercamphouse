@@ -49,15 +49,14 @@ print(list)
 
 print("Part Three----------------------------------------------------------------------")
 #Temporarily sort your list, print it both sorted and unsorted 
-listr = list.copy()
-list.sort()
-print(f"Sorted: {list}")
-print(f"Unsorted: {listr}")
+
+print(f"Sorted: {sorted(list)}")
+print(f"Unsorted: {list}")
 
 #Permanently sort your list in reverse order, printing it out
-list.sort(reverse=True)
+list.reverse()
 print(list)
 
 #Using the reverse method reverse the list and print it
-list.sort(reverse=False)
+list.reverse()
 print(list)
